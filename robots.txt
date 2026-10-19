@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: http://www.visitmyjaipur.com/sitemap.xml

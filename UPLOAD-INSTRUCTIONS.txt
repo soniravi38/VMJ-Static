@@ -1,0 +1,33 @@
+VISIT MY JAIPUR – VERSION 2 (MULTI-PAGE) UPLOAD GUIDE
+====================================================
+
+1) SABSE AASAN TAREEKA (GoDaddy cPanel):
+   - cPanel -> File Manager -> public_html folder kholein.
+   - Upar "Settings" mein "Show Hidden Files" ON karein (.htaccess file dikhne ke liye).
+   - Purani files (Version 1) ka backup chahiye to pehle unhe ek folder mein Compress kar lein.
+   - Ye ZIP file public_html mein Upload karein -> uspar right-click -> "Extract".
+   - Saari files public_html mein seedhi aani chahiye (index.html, news.html, assets/ folder, icons/ folder ...),
+     kisi andar wale folder mein nahi.
+   - Version 1 ki index.html, sw.js, manifest.webmanifest, robots.txt, sitemap.xml apne aap badal jayengi.
+
+2) PAGES (sab ek dusre se menu se jude hain):
+   index.html (Home) · news.html · heritage.html · visit.html (Timings & Tickets) · plan.html (Trip Planner)
+   tools.html (Budget, Stay, Day Trips, Packing) · map.html (Map & Near Me) · food.html · festivals.html
+   travel.html · help.html · guide.html · about.html · collab.html · contact.html · privacy.html · 404.html
+
+3) PURANE LINKS: Version 1 ke links (jaise visitmyjaipur.com/#visit ya share ki hui news) apne aap
+   naye page par khul jayenge.
+
+4) TYOHAR: 2026 se 2035 tak ke 34 tyohar (Diwali, Holi, Eid, 2 October, Jaipur Foundation Day ...)
+   apne aap Home ke animation aur Festival Calendar mein aate hain. 2035 ke baad Claude se aage ki
+   tareekhein daalwa lein.
+
+5) SSL LAGNE KE BAAD:
+   - .htaccess file kholkar neeche ki 4 lines ke aage se # hata dein (https par bhejne ke liye).
+   - Claude ko bata dein – woh saare pages mein http:// ko https:// kar dega.
+
+6) GOOGLE SEARCH CONSOLE: Sitemaps mein "sitemap.xml" dobara Submit karein (ab isme 16 pages hain).
+
+7) NEWS (Google Sheet) aur GOOGLE ANALYTICS pehle jaise hi jude hain – kuch karne ki zaroorat nahi.
+
+8) WEBSITE UPDATE KARNE PAR: sw.js mein VERSION ki value badal dein, taaki app wale users ko naya version mile.
